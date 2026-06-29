@@ -85,3 +85,15 @@
     "respond": true
   }
 }
+bot.once('spawn', () => {
+  console.log('Bot joined!');
+
+  setTimeout(() => {
+    bot.chat('/register chalol78 chalol78');
+
+    setTimeout(() => {
+      bot.chat('/login chalol78');
+    }, 2000);
+
+  }, 1000);
+});
