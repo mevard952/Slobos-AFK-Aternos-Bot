@@ -77,8 +77,8 @@
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
-      "disconnect": true,
-      "chat": false
+      "disconnect": false,
+      "chat": true
     }
   },
   "chat": {
