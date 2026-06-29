@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "nightmaresmpmc.aternos.me",
-    "port": 25931,
+    "port": 25565,
     "version": "1.21.11",
     "try-creative": false
   },
