@@ -85,26 +85,3 @@
     "respond": true
   }
 }
-const mineflayer = require('mineflayer');
-
-const PASSWORD = 'botthegela';
-
-const bot = mineflayer.createBot({
-  host: 'nightmaresmpmc.aternos.me',
-  port: 25931,
-  username: 'gelaisbot',
-  version: false
-});
-
-bot.once('spawn', () => {
-  console.log('Bot joined!');
-
-  // Wait a few seconds after joining
-  setTimeout(() => {
-    bot.chat(`/register ${PASSWORD} ${PASSWORD}`);
-
-    setTimeout(() => {
-      bot.chat(`/login ${PASSWORD}`);
-    }, 2000);
-  }, 3000);
-});
