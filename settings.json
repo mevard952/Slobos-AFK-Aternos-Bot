@@ -3,7 +3,7 @@
   "bot-account": {
     "username": "Slobot00",
     "password": "afkbot123",
-    "type": "ofline"
+    "type": "offline"
   },
   "server": {
     "ip": "nightmaresmpmc.aternos.me",
